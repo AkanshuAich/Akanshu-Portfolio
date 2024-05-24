@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import Image from "../assets/Coder.png"
+
 
 const Hero = () => {
   return (
@@ -13,10 +14,10 @@ const Hero = () => {
           <div className='w-5 h-5 rounded-full bg-[#bf61ff]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
-
+        <div className='flex w-fit' >
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='bg-gradient-to-r from-[#bd52eb] to-[#ec3975] text-transparent bg-clip-text'> {"<"} Akanshu {"/>"}</span>
+            Hi, I'm <span className='bg-gradient-to-r from-[#bd52eb] to-[#ec3975] text-transparent bg-clip-text'> {"<"}Akanshu{"/>"}</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a student of IIIT Bhubaneswar.  <br className='sm:block hidden' />
@@ -24,9 +25,15 @@ const Hero = () => {
           </p>
         </div>
       </div>
-
-      <ComputersCanvas />
-
+      <div className='hidden md:w-1/2 md:flex md:items-center md:justify-center'>
+    <img
+              alt="1"
+              className="max-w-full max-h-full mt-32 mr-0 transition-transform duration-300 ease-in-out transform hover:scale-90 perspective-1000"
+              src={Image}
+            />
+    </div>
+    </div>
+  
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
