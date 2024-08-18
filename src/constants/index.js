@@ -28,6 +28,8 @@ import {
   society,
   estate,
   homework,
+  zuup,
+  reallist,
 } from "../assets";
 
 export const navLinks = [
@@ -51,7 +53,7 @@ const services = [
     icon: web,
   },
   {
-    title: "UI/UX Developer",
+    title: "App Developer",
     icon: mobile,
   },
   {
@@ -120,17 +122,43 @@ const technologies = [
 ];
 
 const experiences = [
+  // {
+  //   title: "Junior Software Developer",
+  //   company_name: "Vaid",
+  //   icon: vaid,
+  //   iconBg: "#E6DEDD",
+  //   date: "April 2024 - Present",
+  //   points: [
+  //     "Enhanced user interfaces by actively contributing to web platform development using the MERN stack.",
+  //     "Collaborated with cross-functional teams, refining backend functionalities with MongoDB and Express.js.",
+  //     "Managed data efficiently and created APIs to support seamless backend operations.",
+  //     "Delivered seamless user experiences by integrating robust backend capabilities into the medical AI website.",
+  //   ],
+  // },
   {
-    title: "Junior Software Developer",
-    company_name: "Vaid",
-    icon: vaid,
+    title: "App Developer",
+    company_name: "ZUUP",
+    icon: zuup,
     iconBg: "#E6DEDD",
-    date: "April 2024 - Present",
+    date: "May 2024 - Present",
     points: [
-      "Enhanced user interfaces by actively contributing to web platform development using the MERN stack.",
-      "Collaborated with cross-functional teams, refining backend functionalities with MongoDB and Express.js.",
-      "Managed data efficiently and created APIs to support seamless backend operations.",
-      "Delivered seamless user experiences by integrating robust backend capabilities into the medical AI website.",
+      "Architected scalable logistics app using Flutter and Firebase, handling 1000+ daily active users efficiently.",
+      "Incorporated OAuth 2.0 for secure authentication, decreasing unauthorized access attempts by 98% significantly.",
+      "Built recommendation system using collaborative filtering, augmenting consumer activity by 40% and improving engagement.",
+      "Implemented real-time tracking features, enhancing shipment visibility and reducing customer support inquiries by 30%.",
+    ],
+  },
+  {
+    title: "UI/UX Full Stack Developer",
+    company_name: "Reallist",
+    icon: reallist,
+    iconBg: "#E6DEDD",
+    date: "July 2024 - August 2024",
+    points: [
+      "Revamped Node.js backend with Redis caching, streamlining latency by 70% and improving overall system performance.",
+      "Executed responsive React components, escalating web user engagement by 45% and enhancing the user interface.",
+      "Led cross-functional team collaboration, accelerating project delivery timelines by 25% and improving communication across departments.",
+      "Optimized database queries and implemented efficient data structures, resulting in a 40% reduction in server load.",
     ],
   },
   {

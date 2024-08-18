@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import Image from "../assets/Coder.png"
+import Linkedin from "../assets/linkedin.png"
+import github from "../assets/githubprofile.png"
 
 
 const Hero = () => {
@@ -23,6 +25,24 @@ const Hero = () => {
             I am a student of IIIT Bhubaneswar.  <br className='sm:block hidden' />
             A web developer and AI/ML enthusiast.
           </p>
+          <div className="flex mt-4 space-x-4 items-center">
+              <a
+                href="https://www.linkedin.com/in/akanshu-aich"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-transform duration-300 hover:scale-110"
+              >
+                <img src={Linkedin} alt="LinkedIn" className="w-12 h-12" />
+              </a>
+              <a
+                href="https://github.com/AkanshuAich"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-transform duration-300 hover:scale-110"
+              >
+                <img src={github} alt="GitHub" className="w-12 h-12" />
+              </a>
+            </div>
         </div>
       </div>
       <div className='hidden md:w-1/2 md:flex md:items-center md:justify-center'>

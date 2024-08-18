@@ -27,6 +27,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import vaid from "./company/vaid.png"
+import zuup from "./company/zuup.png";
+import reallist from "./company/reallistai.jpeg";
 import upmymind from "./company/Upmymind.png"
 
 import carrent from "./carrent.png";
@@ -71,4 +73,6 @@ export {
   society,
   estate,
   homework,
+  zuup,
+  reallist,
 };
